@@ -1,11 +1,4 @@
 <?php
-	$arr = [
-		[1, 2, 3],
-		[4, 5, 6],
-		[9, 8, 9]
-	];
-
-
 	function diagonalDifference($arr) {
 		$ltrDiagonal = [];
 		$rtlDiagonal = [];
@@ -32,5 +25,3 @@
 
 		return abs($v1 - $v2);
 	}
-
-	echo diagonalDifference($arr);
