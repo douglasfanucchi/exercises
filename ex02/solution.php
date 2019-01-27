@@ -6,11 +6,7 @@
 		for( $i = 0; $i < count($arr); $i++ ) {
 			for( $j = 0; $j < count($arr[$i]); $j++ ) {
 				if( $j === $i) $ltrDiagonal[] = $arr[$i][$j];
-			}
-		}
-
-		for( $i = 0; $i < count($arr); $i++ ) {
-			for( $j = 0; $j < count($arr[$i]); $j++ ) {
+				
 				if($j === count($arr) - 1 - $i) $rtlDiagonal[] = $arr[$i][$j];
 			}
 		}
