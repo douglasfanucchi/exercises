@@ -1,6 +1,4 @@
 <?php
-	$arr = [0, 0, -1, 1, 1,];
-
 	function plusMinus($arr){
 		$elements = count($arr);		
 		$zeros = 0;
@@ -18,5 +16,3 @@
 		echo number_format($zeros/$elements, 6);
 
 	}
-
-	plusMinus($arr);
