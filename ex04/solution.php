@@ -17,3 +17,5 @@
 	        echo "\r\n";
 	    }
 	}
+
+	staircase(12);
