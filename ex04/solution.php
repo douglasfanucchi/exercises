@@ -8,7 +8,7 @@
 	            $sharps .= '#';
 	        }
 
-	        for( $k = $n - $i; $k >= 1; $k-- ) {
+	        for( $k = $n - strlen($sharps); $k >= 1; $k-- ) {
 	            echo ' ';
 	        }
 
